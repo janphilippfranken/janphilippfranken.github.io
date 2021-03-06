@@ -3,37 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>janphilippfranken.github.io/publication/2020-01-01_fraenken2020belief/</loc>
+    <loc>/publication/2020-01-01_fraenken2020belief/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>janphilippfranken.github.io/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>janphilippfranken.github.io/publication/</loc>
+    <loc>/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>janphilippfranken.github.io/publication/2020-01-01_fraenken2020cascades/</loc>
-  </url>
-  
-  <url>
-    <loc>janphilippfranken.github.io/categories/</loc>
+    <loc>/publication/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>janphilippfranken.github.io/publication/2021-01-01_fraenken2021belief/</loc>
+    <loc>/publication/2020-01-01_fraenken2020cascades/</loc>
   </url>
   
   <url>
-    <loc>janphilippfranken.github.io/tags/</loc>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/publication/2021-01-01_fraenken2021belief/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
     <priority>0</priority>
   </url>
   
