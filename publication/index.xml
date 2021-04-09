@@ -6,10 +6,19 @@
     <description>Recent content in Publications on Jan-Philipp Fränken</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; Jan-Philipp Fränken, 2021.</copyright>
-    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cascades across networks are sufficient for the formation of echo chambers: An agent-based model</title>
+      <link>/publication/2020-01-01_fraenken2020cascades/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2020-01-01_fraenken2020cascades/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Belief revision in a micro-social network: Modeling sensitivity to statistical dependencies in social learning</title>
@@ -17,15 +26,6 @@
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>/publication/2020-01-01_fraenken2020belief/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cascades across networks are sufficient for the formation of echo chambers: An agent-based model</title>
-      <link>/publication/2020-01-01_fraenken2020cascades/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2020-01-01_fraenken2020cascades/</guid>
       <description></description>
     </item>
     
