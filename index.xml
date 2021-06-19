@@ -1,50 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jan-Philipp Fränken</title>
-    <link>/</link>
-    <description>Recent content on Jan-Philipp Fränken</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <copyright>&amp;copy; Jan-Philipp Fränken, 2021.</copyright>
-    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <title>About on Jan-Philipp Fränken</title>
+    <link>https://janphilippfranken.github.io/</link>
+    <description>Recent content in About on Jan-Philipp Fränken</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://janphilippfranken.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cascades across networks are sufficient for the formation of echo chambers: An agent-based model</title>
-      <link>/publication/2021-01-01_fraenken2020cascades/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2021-01-01_fraenken2020cascades/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Belief revision in a micro-social network: Modeling sensitivity to statistical dependencies in social learning</title>
-      <link>/publication/2020-01-01_fraenken2020belief/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2020-01-01_fraenken2020belief/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Believing does not equal remembering: The effects of social feedback and T objective false evidence on belief in occurrence, belief in accuracy, and recollection</title>
-      <link>/publication/2018-01-01-otgaar2018nbm/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2018-01-01-otgaar2018nbm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Know your network: Sensitivity to structure in social learning</title>
-      <link>/publication/2021-01-01_fraenken2021belief/</link>
+      <title>About</title>
+      <link>https://janphilippfranken.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/publication/2021-01-01_fraenken2021belief/</guid>
-      <description></description>
+      <guid>https://janphilippfranken.github.io/about/</guid>
+      <description>Short Bio  -- I am a 2-year PhD Student at The University of Edinburgh. My interests are in the domain of program induction and probabilistic reasoning. I am also interested in the development of formal and interactive multi-player experiments.
+Publications 2021
+ Fränken, J.P., Pilditch, T.D. (2021). Cascades across networks are sufficient for the formation of echo chambers: An agent-based model. Journal of Artificial Societies a nd Social Simulation. PDF|GitHub   To a great mind, nothing is little -- </description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://janphilippfranken.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://janphilippfranken.github.io/contact/</guid>
+      <description> Email: janphilipp.franken@gmail.com Phone: +49-1631 410880   Mailing Address  Room S35, 7 George Square
+EH8 9JZ, Edinburgh
+United Kingdom
+  Links  Google Scholar Lab Website  </description>
     </item>
     
   </channel>

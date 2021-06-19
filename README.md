@@ -1,1 +1,0 @@
-# janphilippfranken.github.io
