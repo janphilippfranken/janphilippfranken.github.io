@@ -18,15 +18,24 @@ My current research mainly focuses on how agents learn and adapt probabilistic p
     </item>
     
     <item>
-      <title>Contact</title>
+      <title>About</title>
       <link>https://janphilippfranken.github.io/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
       <guid>https://janphilippfranken.github.io/contact/</guid>
-      <description> Email: janphilipp.franken@gmail.com   Mailing Address  Room S35, 7 George Square
-EH8 9JZ, Edinburgh
+      <description>  Email: janphilipp.franken@gmail.com  Mailing Address  7 George Square
+EH8 9JZ Edinburgh
 United Kingdom
-  </description>
+ </description>
+    </item>
+    
+    <item>
+      <title>Experiment Demos</title>
+      <link>https://janphilippfranken.github.io/demos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>https://janphilippfranken.github.io/demos/</guid>
+      <description>Demo 1 - Experiment 1 from Fränken, Theodoropoulos, and Bramley (preprint).  Click here to learn and adapt probabilistic programs in a challenging game of inductive logic.  Demo 2 - Experiment 2 from Fränken, Valentin, Lucas, and Bramley (in preparation).  Click here to catch fish in space (three players needed).  </description>
     </item>
     
   </channel>
