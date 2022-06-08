@@ -32,7 +32,7 @@ Multi-agent reasoning task Demo.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
       <guid>https://janphilippfranken.github.io/demos/</guid>
-      <description>Demos Demo 1 - Experiment 1 from Fränken, Theodoropoulos, and Bramley (under review).  Click here to play a game that mimics scientific induction.  Demo 2 - Experiment 1 from Fränken, Valentin, Lucas, and Bramley (in preparation).  Click here for an illustration.  </description>
+      <description>Demos Experiment 1 from Fränken, Theodoropoulos, and Bramley (In Review).  Click here to start the experiment.  Experiment 1 from Fränken, Valentin, Lucas, and Bramley (Under Submission).  Click here to start the experiment.  </description>
     </item>
     
     <item>
@@ -54,9 +54,9 @@ Fränken, J.P., Theodoropoulos, N., Bramley, N.</description>
       <author>youremail@domain.com (Some Person)</author>
       <guid>https://janphilippfranken.github.io/publications/</guid>
       <description>Publications Also on Google Scholar.
-Working Papers Fränken, J.P., Valentin, S., Lucas, C., Bramley, N. R. Determinants of individual and collective success in human social learning (Under submission). Experiment 1 Demo
-Bricault, S., Lee, J., Desay, M., Schwalm, M., DeTienne, E., Fagan, E., Li, N., Dawson, M., Chung, K., Muthupalani, S., Fränken, J.P., Pinotsis, D., Jasanoff, A. Peripheral contributions to resting state brain dynamics (In Review).
-Fränken, J.P., Theodoropoulos, N., Bramley, N.</description>
+Working Papers Bricault, S., Lee, J., Desay, M., Schwalm, M., DeTienne, E., Fagan, E., Li, N., Dawson, M., Chung, K., Muthupalani, S., Fränken, J.P., Pinotsis, D., Jasanoff, A. Peripheral contributions to resting state brain dynamics (In Review).
+Fränken, J.P., Theodoropoulos, N., Bramley, N. R. Algorithms of adaptation in inductive inference (In Review). pdf | demo
+Fränken, J.P., Valentin, S., Lucas, C., Bramley, N. R. Determinants of individual and collective success in human social learning (Under Submission).</description>
     </item>
     
   </channel>
