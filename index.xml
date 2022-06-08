@@ -13,7 +13,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
       <guid>https://janphilippfranken.github.io/about/</guid>
-      <description>Hello! I am a third-year PhD Student at The University of Edinburgh, working in the Computational Cognitive Science Lab with Neil Bramley and Chris Lucas. My PhD is funded by the German Academic Scholarship Foundation and ESRC. I am broadly interested in intelligence research (natural, artificial) with a passion for probabilistic programming and program induction. My current research mainly focuses on how people generate and adapt hypotheses in a task that mimics scientific induction (Demo).</description>
+      <description>I am a third-year PhD Student at The University of Edinburgh, working in the Computational Cognitive Science Lab with Neil Bramley and Chris Lucas. My PhD is funded by the German Academic Scholarship Foundation and ESRC. I am broadly interested in intelligence research (natural, artificial) with a passion for probabilistic programming and program induction.
+Prior to joining The University of Edinburgh, I pursued a Master&amp;rsquo;s degree in Cognitive and Decision Sciences from University College London working with David Lagnado&amp;rsquo;s Causal Cognition Lab.</description>
     </item>
     
     <item>
@@ -41,7 +42,7 @@ Multi-agent reasoning task Demo.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>youremail@domain.com (Some Person)</author>
       <guid>https://janphilippfranken.github.io/demos/</guid>
-      <description>Demo 1 - Experiment 1 from Fränken, Theodoropoulos, and Bramley (under review).  Click here to learn and adapt probabilistic programs in a challenging game of inductive logic.  Demo 2 - Experiment 1 from Fränken, Valentin, Lucas, and Bramley (in preparation).  Click here for an illustration.  </description>
+      <description>Demo 1 - Experiment 1 from Fränken, Theodoropoulos, and Bramley (under review).  Click here to play a game that mimics scientific induction.  Demo 2 - Experiment 1 from Fränken, Valentin, Lucas, and Bramley (in preparation).  Click here for an illustration.  </description>
     </item>
     
   </channel>
