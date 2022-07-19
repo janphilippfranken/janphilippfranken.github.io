@@ -1,57 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on Jan-Philipp Fränken</title>
+    <title>Jan-Philipp Fränken</title>
     <link>https://janphilippfranken.github.io/</link>
-    <description>Recent content in Publications on Jan-Philipp Fränken</description>
+    <description>Recent content on Jan-Philipp Fränken</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster><atom:link href="https://janphilippfranken.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <copyright>Jan-Philipp Fränken</copyright><atom:link href="https://janphilippfranken.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
+      <title></title>
+      <link>https://janphilippfranken.github.io/archives/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://janphilippfranken.github.io/archives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://janphilippfranken.github.io/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>https://janphilippfranken.github.io/contact/</guid>
-      <description>Contact  Email: janphilipp.franken@gmail.com  </description>
+      <description>Contact Email: janphilipp.franken@gmail.com</description>
     </item>
     
     <item>
-      <title>Experiment Demos</title>
-      <link>https://janphilippfranken.github.io/code/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://janphilippfranken.github.io/code/</guid>
-      <description>Inductive logic game Demo.
-Multi-agent reasoning task Demo.</description>
-    </item>
-    
-    <item>
-      <title>Experiment Demos</title>
+      <title></title>
       <link>https://janphilippfranken.github.io/demos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>https://janphilippfranken.github.io/demos/</guid>
-      <description>Demos Experiment 1 from Fränken, Theodoropoulos, and Bramley (2022).  Click here to start the experiment.  Experiment 1 from Fränken, Valentin, Lucas, and Bramley (In Review).  Click here to start the experiment.  </description>
+      <description>Experiment Demos Experiment 1 from Fränken, Theodoropoulos, and Bramley (2022).  Click here to start the experiment.  Experiment 1 from Fränken, Valentin, Lucas, and Bramley (In Review).  Click here to start the experiment.  </description>
     </item>
     
     <item>
-      <title>Publications</title>
-      <link>https://janphilippfranken.github.io/about/</link>
+      <title></title>
+      <link>https://janphilippfranken.github.io/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://janphilippfranken.github.io/about/</guid>
-      <description>Publications Also on Google Scholar.
-Working Papers Fränken, J.P., Valentin, S., Lucas, C., Bramley, N. R. Determinants of individual and collective success in human social learning (Under submission). Experiment 1 Demo
-Bricault, S., Lee, J., Desay, M., Schwalm, M., DeTienne, E., Fagan, E., Li, N., Dawson, M., Chung, K., Muthupalani, S., Fränken, J.P., Pinotsis, D., Jasanoff, A. Peripheral contributions to resting state brain dynamics (In Review).
-Fränken, J.P., Theodoropoulos, N., Bramley, N.</description>
+      
+      <guid>https://janphilippfranken.github.io/home/</guid>
+      <description>I am a third-year PhD Student at The University of Edinburgh, working in the Computational Cognitive Science Lab with Neil Bramley and Chris Lucas. My PhD is funded by the German Academic Scholarship Foundation and ESRC. I currently work on probabilistic programming and Bayesian modelling to study human concept learning. A representative recent work can be found here.
+Prior to joining The University of Edinburgh, I pursued a Master&amp;rsquo;s degree in Cognitive and Decision Sciences from University College London working with David Lagnado&amp;rsquo;s Causal Cognition Lab.</description>
     </item>
     
     <item>
-      <title>Publications</title>
+      <title></title>
       <link>https://janphilippfranken.github.io/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
+      
       <guid>https://janphilippfranken.github.io/publications/</guid>
       <description>Publications Also on Google Scholar.
 Working Papers Bricault, S., Lee, J., Desay, M., Schwalm, M., DeTienne, E., Fagan, E., Li, N., Dawson, M., Chung, K., Muthupalani, S., Fränken, J.P., Pinotsis, D., Jasanoff, A. Peripheral contributions to resting state brain dynamics (In Review).
