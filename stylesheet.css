@@ -109,6 +109,8 @@ papertitle {
   font-weight: 500
 }
 
+
+
 name {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 32px;
@@ -120,6 +122,13 @@ name {
   position: relative;
 }
 
+.bibindex {
+    font-family: 'Roboto Medium', 'Verdana', sans-serif;
+    font-weight: 500;
+    color: #888888;
+}
+
+
 .two {
   width: 160px;
   height: 160px;
@@ -127,6 +136,10 @@ name {
   transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
   -webkit-transition: opacity .2s ease-in-out;
+}
+
+.more {
+    font-variant: small-caps;
 }
 
 .fade {
