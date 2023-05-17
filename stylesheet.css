@@ -84,6 +84,10 @@ a {
   font-size: 14px
 }
 
+.bibliography {
+  list-style-type: none;
+}
+
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
@@ -92,6 +96,11 @@ strong {
 heading {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 22px;
+}
+
+heading2 {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 16px;
 }
 
 papertitle {
