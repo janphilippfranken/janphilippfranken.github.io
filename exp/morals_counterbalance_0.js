@@ -21,7 +21,7 @@ async function createTrialPages(condition) {
  
 
     // read stories rom a json file
-    let response = await fetch(`https://janphilippfranken.github.io/exp/counterbalance_${condition}_1.json`);
+    let response = await fetch(`https://janphilippfranken.github.io/exp/counterbalance_${condition}.json`);
     // let response = await fetch('counterbalance_0.json');
     let trials = await response.json();
     shuffleArray(trials);
