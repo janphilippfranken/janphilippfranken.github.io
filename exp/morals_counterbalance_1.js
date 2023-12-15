@@ -22,8 +22,7 @@ async function createTrialPages(condition) {
 
     // read stories rom a json file
     // let response = await fetch(`https://kanishkg.github.io/batch_${condition}.json`);
-    // let response = await fetch('counterbalance_1.json');
-    let response = await fetch(`https://janphilippfranken.github.io/exp/counterbalance_${condition}.json`);
+    let response = await fetch('counterbalance_1.json');
     let trials = await response.json();
     shuffleArray(trials);
 
@@ -42,7 +41,7 @@ async function createTrialPages(condition) {
         for (let q = 1; q <= 1; q++) {
             trialPages += `<div class="question" id="question-${i}-${q}">`;
             trialPages += `
-            <p>Rate how good or bad the event in the target sentence is:</p>
+            <p>Rate how good or bad the event in the target sentence is (<b>Note</b> that good is on the left while bad is on the right):</p>
                 <div class="form-check form-check-inline">
                     <input class="form-check-input" type="radio" name="likert-${i}-${q}" id="likert-${i}-${q}-7" value="7">
                     <label class="form-check-label" for="likert-${i}-${q}-7">Very Good</label>
