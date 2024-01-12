@@ -14,71 +14,82 @@ function shuffleArray(array) {
 }
 
 async function createTrialPages(condition) {
-
     let trialPages = '';
     let num_trials = 16;
-    let question_1 = 'What {agent} did is morally permissible.';
-    let question_2 = '{agent} intended for the negative outcome to occur.';
 
-    // read stories rom a json file
+    // read stories from a json file
     let response = await fetch(`batch_${condition}.json`);
     let trials = await response.json();
     shuffleArray(trials);
 
     window.trials = trials;
-    // console.log(trials);
 
     for (let i = 1; i <= num_trials; i++) {
+        let permissibilityQuestion = trials[i-1].permissibility_question.replace("did", "<span style='color: blue;'>did</span>");
+        let intentionQuestion = trials[i-1].intention_question.replace("negative outcome", "<span style='color: red;'>negative outcome</span>");
+        let questions = [permissibilityQuestion, intentionQuestion];
 
-        // create a list of the questions
-        let questions = [trials[i-1].permissibility_question, trials[i-1].intention_question];
+        let structureSentence = trials[i-1].structure_sentence;
+        let modifiedSentence;
+
+        // Split the sentence at the first comma, regardless of whether it's one or two sentences
+        let parts = structureSentence.split(/,(.+)/);
+        if (parts.length > 1) {
+            modifiedSentence = parts[0] + ", <span style='color: red;'>" + parts[1] + "</span>";
+        } else {
+            // If there's no comma, leave the sentence as is
+            modifiedSentence = structureSentence;
+        }
 
         trialPages += `
             <div id="trial-page-${i}" class="page d-none">
                 <h4> Story </h4>
                 <p> ${trials[i-1].context} ${trials[i-1].opportunity}</p>
 
-                <p> ${trials[i-1].structure_sentence}</p>
+                <p> ${modifiedSentence}</p>
 
                 <p> ${trials[i-1].evitability_sentence}</p>
 
-                <p> ${trials[i-1].action_sentence}</p>`;
-        
+                <p> <span style='color: blue;'>${trials[i-1].action_sentence}</span></p>
+        `;
+
         for (let q = 1; q <= 2; q++) {
-            trialPages += `<div class="question" id="question-${i}-${q}">`;
             trialPages += `
-            <p><b>Statement</b> ${q}: ${questions[q-1]}</p>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="likert-${i}-${q}" id="likert-${i}-${q}-1" value="1">
-                    <label class="form-check-label" for="likert-${i}-${q}-1">Strongly Disagree</label>
+                <div class="question" id="question-${i}-${q}">
+                    <p><b>Statement ${q}</b>: ${questions[q-1]}</p>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="likert-${i}-${q}" id="likert-${i}-${q}-1" value="1">
+                        <label class="form-check-label" for="likert-${i}-${q}-1">Strongly Disagree</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="likert-${i}-${q}" id="likert-${i}-${q}-2" value="2">
+                        <label class="form-check-label" for="likert-${i}-${q}-2">Disagree</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="likert-${i}-${q}" id="likert-${i}-${q}-3" value="3">
+                        <label class="form-check-label" for="likert-${i}-${q}-3">Neutral</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="likert-${i}-${q}" id="likert-${i}-${q}-4" value="4">
+                        <label class="form-check-label" for="likert-${i}-${q}-4">Agree</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="likert-${i}-${q}" id="likert-${i}-${q}-5" value="5">
+                        <label class="form-check-label" for="likert-${i}-${q}-5">Strongly Agree</label>
+                    </div>
                 </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="likert-${i}-${q}" id="likert-${i}-${q}-2" value="2">
-                    <label class="form-check-label" for="likert-${i}-${q}-2">Disagree</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="likert-${i}-${q}" id="likert-${i}-${q}-3" value="3">
-                    <label class="form-check-label" for="likert-${i}-${q}-3">Neutral</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="likert-${i}-${q}" id="likert-${i}-${q}-4" value="4">
-                    <label class="form-check-label" for="likert-${i}-${q}-4">Agree</label>
-                </div>
-                <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="likert-${i}-${q}" id="likert-${i}-${q}-5" value="5">
-                    <label class="form-check-label" for="likert-${i}-${q}-5">Strongly Agree</label>
-                </div>
-            <br><br></div>
-                    `;
+                <br>
+            `;
         }
-        trialPages += `
-                </form>
-            </div>`;
+
+        trialPages += `</div>`;
     }
-    // add trial pages to the html
+
+    // add trial pages to the HTML
     var $trialPages = $("#trial-pages");
     $trialPages.append(trialPages);
 }
+
 
 $(document).ready(function () {
     
