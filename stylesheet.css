@@ -60,9 +60,10 @@ body, html {
 }
 
 .content {
-  width: 90%; /* Use 100% width or adjust as necessary for your design */
+  width: 90%; /* Use up to 90% width on larger screens */
+  max-width: 90%; /* Ensures content does not exceed 90% of the screen width */
   margin-top: 10vh; /* Adjust this value to increase/decrease space from the top */
-  /* No need for margin-left or margin-right auto due to flex alignment */
+  /* Flex alignment properties assumed to be set elsewhere in your CSS */
 }
 
 
