@@ -44,29 +44,32 @@ html {
   margin-bottom: 5px; /* Space below each year heading */
   font-weight: 500;
 }
-
 body, html {
   height: 100%;
   margin: 0;
   display: flex;
-  flex-direction: column; /* Aligns children vertically */
-  justify-content: flex-start; /* Starts content at the top */
-  align-items: center; /* Centers content horizontally */
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   font-family: "Raleway", sans-serif;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  text-align: center; /* Ensures text is centered within its container */
+  text-align: center;
 }
 
 .content {
-  width: 90%; /* Use up to 90% width on larger screens */
-  max-width: 90%; /* Ensures content does not exceed 90% of the screen width */
-  margin-top: 10vh; /* Adjust this value to increase/decrease space from the top */
-  /* Flex alignment properties assumed to be set elsewhere in your CSS */
+  width: 90%;
+  margin-top: 10vh;
+  box-sizing: border-box; /* Ensures padding and border are included in the width */
 }
 
-
+/* Media query for screens smaller than a certain width, e.g., 600px */
+@media (max-width: 600px) {
+  .content {
+    width: 80%; /* Adjusts width for smaller screens */
+  }
+}
 
 
 h1 {
