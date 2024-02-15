@@ -1,153 +1,131 @@
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_FQftx9897sxZ.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: italic;
-  font-weight: 700;
-  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-a {
-  color: #1772d0;
-  text-decoration: none;
-}
-
-a:focus,
-a:hover {
-  color: #f09228;
-  text-decoration: none;
-}
-
 body,
-td,
-th,
-tr,
-p,
-a {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px
+html {
+  height: 100%;
+  margin: 0;
+  color: #333;
+}
+.affiliations {
+  font-size: 0.9em; /* Smaller font size for affiliations */
+  color: #666; /* Slightly lighter color for a subtle look */
+  margin-top: 10px; /* Space above affiliations */
+}
+.profile-picture {
+  width: 30vw; /* Width relative to the viewport width */
+  height: 30vw; /* Height same as width to maintain a circle */
+  max-width: 150px; /* Maximum width in pixels */
+  max-height: 150px; /* Maximum height, same as max-width to maintain a circle */
+  border-radius: 150px; /* Circular shape */
+  border: 2px solid #333; /* Border thickness in pixels */
+  margin-bottom: 20px; /* Space below the picture in pixels */
+  margin-left: auto; /* These two margins auto center the block */
+  margin-right: auto;
 }
 
-.bibliography {
+.authors {
+  font-size: 0.8em; /* Smaller font size for author names and affiliations */
+  color: #555; /* Color for the author names and affiliations */
+  display: block; /* Makes the element appear on its own line */
+}
+
+.additional-link {
+  font-size: 0.8em; /* Smaller font size for additional links */
+  color: #666; /* Slightly lighter color for a subtle look */
+  margin-right: 10px; /* Right margin for spacing between links */
+  text-decoration: none; /* Removes underline from links */
+}
+
+.additional-link:hover {
+  color: #0077b5; /* Color change on hover */
+}
+.publications h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.3em;
+  margin-top: 20px; /* Space above each year heading */
+  margin-bottom: 5px; /* Space below each year heading */
+  font-weight: 500;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column; /* Aligns children vertically */
+  justify-content: flex-start; /* Starts content at the top */
+  align-items: center; /* Centers content horizontally */
+  font-family: "Raleway", sans-serif;
+  background-image: url("path-to-your-background-image.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center; /* Ensures text is centered within its container */
+}
+
+.content {
+  width: 100%; /* Use 100% width or adjust as necessary for your design */
+  margin-top: 10vh; /* Adjust this value to increase/decrease space from the top */
+  /* No need for margin-left or margin-right auto due to flex alignment */
+}
+
+
+
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-weight: 300;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  margin-right: 15px; /* Space between icons */
+  font-size: 1.5em; /* Icon size */
+  color: #333; /* Icon color. Adjust as needed */
+}
+
+.social-icons a:hover {
+  color: #0077b5; /* Hover color. Adjust as needed */
+}
+
+.publications {
+  margin-top: 30px;
+}
+
+.publications h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.publications ul {
   list-style-type: none;
+  padding: 0;
 }
 
-strong {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+.publications ul li {
+  font-size: 0.9em; /* Smaller font size for publications */
+  margin-bottom: 8px;
 }
 
-heading {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+.publications a {
+  color: #555; /* Slightly lighter text color for a minimalist look */
+  text-decoration: none;
+  transition: color 0.3s; /* Smooth color transition on hover */
 }
 
-heading2 {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 16px;
-}
-
-papertitle {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 500
-}
-
-
-
-name {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
-}
-
-.one {
-  width: 160px;
-  height: 160px;
-  position: relative;
-}
-
-.bibindex {
-    font-family: 'Roboto Medium', 'Verdana', sans-serif;
-    font-weight: 500;
-    color: #888888;
-}
-
-
-.two {
-  width: 160px;
-  height: 160px;
-  position: absolute;
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
-}
-
-.more {
-    font-variant: small-caps;
-}
-
-.fade {
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
-}
-
-span.highlight {
-  background-color: #ffffd0;
+.publications a:hover {
+  color: #0077b5; /* Change to a color that suits the minimalist aesthetic when hovered */
 }
