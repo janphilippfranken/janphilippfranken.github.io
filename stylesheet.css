@@ -59,7 +59,7 @@ body, html {
 }
 
 .content {
-  width: 90%;
+  width: 100%;
   margin-top: 10vh;
   box-sizing: border-box; /* Ensures padding and border are included in the width */
 }
