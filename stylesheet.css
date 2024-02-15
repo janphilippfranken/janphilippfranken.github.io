@@ -53,7 +53,6 @@ body, html {
   justify-content: flex-start; /* Starts content at the top */
   align-items: center; /* Centers content horizontally */
   font-family: "Raleway", sans-serif;
-  background-image: url("path-to-your-background-image.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -101,7 +100,9 @@ p {
 
 .publications {
   margin-top: 30px;
+  text-align: left; /* Aligns publication text to the left */
 }
+
 
 .publications h2 {
   font-family: "Raleway", sans-serif;
