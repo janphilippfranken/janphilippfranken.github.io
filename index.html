@@ -1,26 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 <head>
   <meta charset="UTF-8">
-  <title>Jan-Philipp Fränken</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Philipp Fränken</title>
   <style>
-    body {
-      font-family: serif;
-      text-align: center;
-      margin-top: 50px;
-    }
-    a {
-      color: blue;
-      text-decoration: underline;
-    }
-    .links {
-      margin-top: 50px;
-      line-height: 2em;
-    }
+    /* Base Reset */
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Georgia, serif; line-height: 1.6; color: #222; background: #fff; }
+    .container { max-width: 900px; margin: 0 auto; padding: 2em 1em; }
+
+    /* Header */
+    header { display: flex; justify-content: space-between; align-items: center; padding-bottom: 1em; border-bottom: 1px solid #ddd; }
+    header h1 { font-size: 1.75em; font-weight: normal; }
+    nav a { margin-left: 1.5em; text-decoration: none; color: #333; font-size: 1em; position: relative; }
+    nav a:hover { color: #000; }
+    nav a.active::after { content: ""; position: absolute; left: 0; right: 0; bottom: -4px; height: 2px; background: #333; }
+
+    /* Intro Section */
+    #intro { display: flex; align-items: flex-start; gap: 2em; padding: 2em 0; }
+    img.profile { width: 250px; height: auto; border-radius: 4px; }
+    .intro-text { max-width: calc(100% - 250px - 2em); }
+    .intro-text p { margin-bottom: 1em; }
+    .intro-text a { color: #1a1a8e; text-decoration: none; }
+    .intro-text a:hover { text-decoration: underline; }
+
+    /* Sections */
+    section { padding-bottom: 2em; }
+    h2 { font-size: 1.5em; margin-bottom: 0.5em; }
+    h2 a { font-size: 0.85em; color: #666; text-decoration: none; margin-left: 0.5em; }
+
+    /* Tables */
+    table { width: 100%; border-collapse: collapse; }
+    td.date { width: 80px; font-size: 0.9em; color: #666; vertical-align: top; padding: 4px 8px; }
+    td.details { padding: 4px 8px; }
+    td.details a { color: #1a1a8e; text-decoration: none; }
+    td.details a:hover { text-decoration: underline; }
+
+    /* Footer */
+    footer { text-align: center; font-size: 0.9em; color: #888; padding-top: 1em; border-top: 1px solid #ddd; }
   </style>
 </head>
 <body>
-  <h1>Jan-Philipp Fränken</h1>
-  <p>Research Scientist at <a href="https://deepmind.google/">Google DeepMind</a>.</p>
-</body>
-</html>
+  <header class="container">
+    <h1>Philipp Fränken</h1>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="intro">
+      <img class="profile" src="s/philipp.png" alt="Philipp Fränken">
+      <div class="intro-text">
+        <p>I am a researcher at <a href="https://deepmind.google/" target="_blank">Google DeepMind</a> working on post-training and RL on the Gemini Team. 
+        <p>
+          From 2023 to 2024, I was a postdoc at <a href="https://www.stanford.edu/" target="_blank">Stanford</a> where I worked on post‑training and evals, advised by 
+          <a href="https://cocolab.stanford.edu/ndg.html" target="_blank">Noah Goodman</a> and 
+          <a href="https://cicl.stanford.edu/member/tobias_gerstenberg/" target="_blank">Tobias Gerstenberg</a>.
+        </p>
+          <a href="https://x.com/jphilippfranken" target="_blank">Twitter</a> / 
+          <a href="https://scholar.google.com/citations?user=s2omqQcAAAAJ&hl=en" target="_blank">Google Scholar</a> / 
+          <a href="mailto:janphilipp.franken@gmail.com">Email</a>
+        </p>
+      </div>
+    </section>
+
+ <section id="papers">
+      <h2>Selected Works</h2>
+      <table>
+        <tr><td class="date">2025 Jun</td><td class="details"><a href="https://arxiv.org/pdf/2507.06261v1" target="_blank">Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities.</a></td></tr>
+        <tr><td class="date">2025 Jan</td><td class="details"><a href="https://arxiv.org/pdf/2501.04682" target="_blank">Towards System 2 Reasoning in LLMs: Learning How to Think With Meta Chain-of-Thought.</a></td></tr>
+        <tr><td class="date">2024 Apr</td><td class="details"><a href="https://arxiv.org/abs/2404.14313" target="_blank">Self-Supervised Alignment with Mutual Information: Learning to Follow Principles without Preference Labels.</a></td></tr>
+        <tr><td class="date">2024 Mar</td><td class="details"><a href="https://arxiv.org/pdf/2403.19154" target="_blank">STaR-GATE: Teaching Language Models to Ask Clarifying Questions.</a></td></tr>
+        <tr><td class="date">2023 Oct</td><td class="details"><a href="https://arxiv.org/pdf/2310.17769" target="_blank">Social Contract AI: Aligning AI Assistants with Implicit Group Norms.</a></td></tr>
+        <tr><td class="date">2023 Jun</td><td class="details"><a href="https://arxiv.org/pdf/2306.15448" target="_blank">Understanding Social Reasoning in Language Models with Language Models.</a></td></tr>
+      </table>
+    </section>
