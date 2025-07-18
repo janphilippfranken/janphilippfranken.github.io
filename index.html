@@ -26,6 +26,13 @@
     .intro-text a { color: #1a1a8e; text-decoration: none; }
     .intro-text a:hover { text-decoration: underline; }
 
+    /* Responsive: stack image above text on small screens */
+    @media (max-width: 600px) {
+      #intro { flex-direction: column; align-items: center; }
+      img.profile { width: 100%; max-width: 250px; margin-bottom: 1em; }
+      .intro-text { max-width: 100%; }
+    }
+
     /* Sections */
     section { padding-bottom: 2em; }
     h2 { font-size: 1.5em; margin-bottom: 0.5em; }
@@ -54,20 +61,19 @@
     <section id="intro">
       <img class="profile" src="s/philipp.png" alt="Philipp Fränken">
       <div class="intro-text">
-        <p>I am a researcher at <a href="https://deepmind.google/" target="_blank">Google DeepMind</a> working on post-training and RL on the Gemini Team. 
-        <p>
-          From 2023 to 2024, I was a postdoc at <a href="https://www.stanford.edu/" target="_blank">Stanford</a> where I worked on post‑training and evals, advised by 
+        <p>I am a researcher at <a href="https://deepmind.google/" target="_blank">Google DeepMind</a> working on post-training and reinforcement learning on the Gemini Team.</p>
+        <p>From 2023–2024, I was a postdoc at <a href="https://www.stanford.edu/" target="_blank">Stanford</a>, working on post‑training and evals, advised by 
           <a href="https://cocolab.stanford.edu/ndg.html" target="_blank">Noah Goodman</a> and 
           <a href="https://cicl.stanford.edu/member/tobias_gerstenberg/" target="_blank">Tobias Gerstenberg</a>.
         </p>
-          <a href="https://x.com/jphilippfranken" target="_blank">Twitter</a> / 
+        <p><a href="https://x.com/jphilippfranken" target="_blank">Twitter</a> / 
           <a href="https://scholar.google.com/citations?user=s2omqQcAAAAJ&hl=en" target="_blank">Google Scholar</a> / 
           <a href="mailto:janphilipp.franken@gmail.com">Email</a>
         </p>
       </div>
     </section>
 
- <section id="papers">
+    <section id="papers">
       <h2>Selected Works</h2>
       <table>
         <tr><td class="date">2025 Jun</td><td class="details"><a href="https://arxiv.org/pdf/2507.06261v1" target="_blank">Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities.</a></td></tr>
@@ -78,3 +84,6 @@
         <tr><td class="date">2023 Jun</td><td class="details"><a href="https://arxiv.org/pdf/2306.15448" target="_blank">Understanding Social Reasoning in Language Models with Language Models.</a></td></tr>
       </table>
     </section>
+  </main>
+</body>
+</html>
